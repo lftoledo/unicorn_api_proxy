@@ -19,10 +19,11 @@ class AppTestCase(unittest.TestCase):
     # def test_unicorns(self):
     #     rv = self.app.get('/unicorn')
     #     self.assertEqual(rv.status, '200 OK')
-    # 
+    #
     # def test_unicorn(self):
     #     rv = self.app.get('/unicorn/Buzzy')
     #     self.assertEqual(rv.status, '200 OK')
+    
 
 
 if __name__ == '__main__':

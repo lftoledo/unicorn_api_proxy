@@ -16,9 +16,9 @@ class AppTestCase(unittest.TestCase):
         rv = self.app.get('/healthcheck')
         self.assertEqual(rv.status, '200 OK')
 
-    def test_unicorns(self):
-        rv = self.app.get('/unicorn')
-        self.assertEqual(rv.status, '200 OK')
+    # def test_unicorns(self):
+    #     rv = self.app.get('/unicorn')
+    #     self.assertEqual(rv.status, '200 OK')
 
     def test_unicorn(self):
         rv = self.app.get('/unicorn/Buzzy')

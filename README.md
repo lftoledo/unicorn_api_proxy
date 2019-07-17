@@ -1,4 +1,3 @@
-#########
 # unicorn_api
 
 This is our API Proxy code for use by trusted Unicorn Rentals partners, and less trusted DevOps teams. Its purpose is to proxy API calls to our backend. Every 4 minutes it uses a different auth secret to auth to the backend, and to validate the result with caller. Currently the auth is updated by a gitpush every 4 minutes.
